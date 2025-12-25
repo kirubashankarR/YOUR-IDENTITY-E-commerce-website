@@ -1,0 +1,95 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black Background -->
+  <rect width="1024" height="1024" fill="#0a0a0a"/>
+  
+  <!-- Crown at top -->
+  <g transform="translate(512, 120)">
+    <!-- Crown base -->
+    <ellipse cx="0" cy="40" rx="80" ry="12" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+    
+    <!-- Crown points -->
+    <path d="M-75 40 L-60 -10 L-45 15 L-30 -20 L-15 10 L0 -25 L15 10 L30 -20 L45 15 L60 -10 L75 40 Z" 
+          fill="#FFD700" stroke="#FFA500" stroke-width="1"/>
+    
+    <!-- Crown jewels -->
+    <circle cx="0" cy="-25" r="3" fill="#FFFFFF"/>
+    <circle cx="-30" cy="-20" r="2" fill="#FFFFFF"/>
+    <circle cx="30" cy="-20" r="2" fill="#FFFFFF"/>
+    <circle cx="-60" cy="-10" r="2" fill="#FFFFFF"/>
+    <circle cx="60" cy="-10" r="2" fill="#FFFFFF"/>
+    
+    <!-- Crown band details -->
+    <circle cx="-30" cy="35" r="2" fill="#FFFFFF"/>
+    <circle cx="0" cy="35" r="2" fill="#FFFFFF"/>
+    <circle cx="30" cy="35" r="2" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Left Wing -->
+  <g transform="translate(180, 300)">
+    <path d="M0 40 Q-60 20 -100 60 Q-90 120 -40 100 Q-20 90 0 110 Q-10 140 -50 130 Q-70 160 -20 170 Q0 160 40 190 Q60 170 90 200 Q110 180 140 210 Q150 190 180 220 L240 120 Q180 80 120 60 Q60 45 0 40 Z" 
+          fill="#FFD700"/>
+    
+    <!-- Wing feather details -->
+    <g stroke="#FFA500" stroke-width="2" fill="none">
+      <path d="M-40 80 Q-20 70 0 90"/>
+      <path d="M-30 110 Q-10 100 10 120"/>
+      <path d="M-10 140 Q10 130 30 150"/>
+      <path d="M20 170 Q40 160 60 180"/>
+      <path d="M50 190 Q70 180 90 200"/>
+    </g>
+  </g>
+  
+  <!-- Right Wing (mirrored) -->
+  <g transform="translate(844, 300) scale(-1, 1)">
+    <path d="M0 40 Q-60 20 -100 60 Q-90 120 -40 100 Q-20 90 0 110 Q-10 140 -50 130 Q-70 160 -20 170 Q0 160 40 190 Q60 170 90 200 Q110 180 140 210 Q150 190 180 220 L240 120 Q180 80 120 60 Q60 45 0 40 Z" 
+          fill="#FFD700"/>
+    
+    <!-- Wing feather details -->
+    <g stroke="#FFA500" stroke-width="2" fill="none">
+      <path d="M-40 80 Q-20 70 0 90"/>
+      <path d="M-30 110 Q-10 100 10 120"/>
+      <path d="M-10 140 Q10 130 30 150"/>
+      <path d="M20 170 Q40 160 60 180"/>
+      <path d="M50 190 Q70 180 90 200"/>
+    </g>
+  </g>
+  
+  <!-- Diamond in center -->
+  <g transform="translate(512, 380)">
+    <path d="M-35 0 L0 -45 L35 0 L20 60 L-20 60 Z" fill="#FFD700"/>
+    <path d="M-25 0 L0 -32 L25 0 L0 8 Z" fill="#FFFFFF" opacity="0.4"/>
+    <path d="M-15 0 L0 -22 L15 0 L0 5 Z" fill="#FFA500"/>
+    <line x1="0" y1="-45" x2="0" y2="60" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#FFA500" stroke-width="2"/>
+    
+    <!-- Diamond sparkles -->
+    <circle cx="-10" cy="-15" r="2" fill="#FFFFFF"/>
+    <circle cx="12" cy="-10" r="1.5" fill="#FFFFFF"/>
+    <circle cx="0" cy="15" r="2.5" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Sword -->
+  <g transform="translate(512, 450)">
+    <!-- Sword guard -->
+    <rect x="-30" y="0" width="60" height="15" rx="4" fill="#FFD700"/>
+    <rect x="-25" y="2" width="50" height="8" rx="2" fill="#FFFFFF" opacity="0.3"/>
+    
+    <!-- Sword blade -->
+    <rect x="-6" y="15" width="12" height="180" fill="#FFD700"/>
+    <rect x="-3" y="15" width="6" height="180" fill="#FFFFFF" opacity="0.4"/>
+    
+    <!-- Sword tip -->
+    <path d="M-12 195 L0 220 L12 195 Z" fill="#FFD700"/>
+    <path d="M-6 195 L0 215 L6 195 Z" fill="#FFFFFF" opacity="0.4"/>
+    
+    <!-- Sword center line -->
+    <line x1="0" y1="15" x2="0" y2="195" stroke="#FFFFFF" stroke-width="2" opacity="0.6"/>
+  </g>
+  
+  <!-- YOUR IDENTITY Text -->
+  <g transform="translate(512, 780)">
+    <text x="0" y="0" text-anchor="middle" font-family="serif" font-size="80" font-weight="bold" fill="#FFD700" letter-spacing="8px">
+      YOUR IDENTITY
+    </text>
+  </g>
+</svg>

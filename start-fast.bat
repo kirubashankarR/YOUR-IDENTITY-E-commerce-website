@@ -1,0 +1,9 @@
+@echo off
+echo Killing existing Node processes...
+taskkill /f /im node.exe 2>nul
+
+echo Cleaning cache...
+if exist .next rmdir /s /q .next 2>nul
+
+echo Starting development server...
+npm run dev:fast

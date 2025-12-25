@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 60 9% 98%;
+    --border: 45 100% 50%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 0 0% 0%;
+  }
+
+  .dark {
+    --background: 0 0% 0%;
+    --foreground: 60 9% 98%;
+    --border: 45 100% 50%;
+    --primary: 45 100% 50%;
+    --primary-foreground: 0 0% 0%;
+  }
+}
+
+/* Simple, fast-loading styles without Tailwind */
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-black text-yellow-100;
+  }
+}
+
+@layer components {
+  .gold-divider {
+    @apply h-px bg-gradient-to-r from-transparent via-yellow-400 to-transparent;
+  }
+}
